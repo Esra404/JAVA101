@@ -1,3 +1,5 @@
+package amstrong;
+
 public class Desne
 {
     public static void main(String[] args) {

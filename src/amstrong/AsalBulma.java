@@ -1,3 +1,5 @@
+package amstrong;
+
 public class AsalBulma {
 
     public static void main(String[] args) {

@@ -1,3 +1,5 @@
+package amstrong;
+
 import java.util.HashMap;
 
 public class ArrayCount {

@@ -1,3 +1,5 @@
+package amstrong;
+
 public class Transpose {
     public static void main(String[] args) {
         int original[][]={{1,3,4},{2,4,3},{3,4,5}};

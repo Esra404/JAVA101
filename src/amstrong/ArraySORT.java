@@ -1,3 +1,5 @@
+package amstrong;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
