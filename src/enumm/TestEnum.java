@@ -1,3 +1,5 @@
+package enumm;
+
 import java.util.Scanner;
 
 public class TestEnum {
@@ -6,16 +8,15 @@ public class TestEnum {
         System.out.println("Enter the name  of the paper");
         String input=scanner.nextLine();
         switch (input.toUpperCase()){
-            case "A1":
-                System.out.println(Paper.A1.getLength()+" "+Paper.A1.ordinal());
-                break;
-            case "A2":
+            case "A1"->System.out.println(Paper.A1.getLength()+" "+Paper.A1.ordinal());
+
+            case "A2"->
                 System.out.println(Paper.A2);
-                break;
-            case "A3":
+
+            case "A3"->
                 System.out.println(Paper.A3);
-                break;
-            default:
+
+            default->
                 System.out.println("TRY AGAIN");
 
         }

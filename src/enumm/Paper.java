@@ -1,3 +1,5 @@
+package enumm;
+
 public enum Paper {
     A1(200,233),A2(44,56),A3(666,122),A4(88,222);
     private int width;

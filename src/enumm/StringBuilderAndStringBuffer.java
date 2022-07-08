@@ -1,3 +1,5 @@
+package enumm;
+
 public class StringBuilderAndStringBuffer {
     public static void main(String[] args) {
         StringBuilder builder;
