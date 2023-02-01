@@ -6,6 +6,7 @@ public class Amain {
         B b = new B();
         a.show();
         b.show();
+        b.show();
     }
 
 }
