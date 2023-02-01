@@ -7,18 +7,34 @@ public class TestEnum {
         Scanner scanner= new Scanner(System.in);
         System.out.println("Enter the name  of the paper");
         String input=scanner.nextLine();
-        switch (input.toUpperCase()){
-            case "A1"->System.out.println(Paper.A1.getLength()+" "+Paper.A1.ordinal());
+        String paper_size= getPaperSize(input);
+        System.out.println(paper_size);
+//        switch (input.toUpperCase()){
+//            case "A1"->System.out.println(Paper.A1.getLength()+" "+Paper.A1.ordinal());
+//
+//            case "A2"->
+//                System.out.println(Paper.A2);
+//
+//            case "A3"->
+//                System.out.println(Paper.A3);
+//
+//            default->
+//                System.out.println("TRY AGAIN");
+//
+//        }
+    }
 
-            case "A2"->
-                System.out.println(Paper.A2);
 
-            case "A3"->
-                System.out.println(Paper.A3);
+    public static String getPaperSize(String paper){
 
-            default->
-                System.out.println("TRY AGAIN");
+        return switch (paper.toUpperCase()){
+            case "A1"-> "LENGTH = "+Paper.A1.getLength() +" WIDTH = "+Paper.A1.getWidth();
+            case "A2"-> "LENGTH = "+Paper.A2.getLength() +" WIDTH = "+Paper.A2.getWidth();
+            case "A3"-> "LENGTH = "+Paper.A3.getLength() +" WIDTH = "+Paper.A3.getWidth();
+            case "A4"-> "LENGTH = "+Paper.A4.getLength() +" WIDTH = "+Paper.A4.getWidth();
+            default -> "there is not such paper in our store";
 
-        }
+
+        };
     }
 }
