@@ -21,6 +21,7 @@ public class Switch {
 //
 //        }
         System.out.println(factorial(5));
+        
 
     }
 
@@ -32,4 +33,8 @@ public class Switch {
             default   -> factorial(n - 1) * n;
         };
     }
+
+
+
+
 }
