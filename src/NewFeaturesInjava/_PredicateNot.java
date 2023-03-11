@@ -21,7 +21,32 @@ public class _PredicateNot {
         System.out.println("////////////////////////");
         integers.parallelStream()
                 .filter( _PredicateNot::isEven)
-                .forEach(System.out::print);
+                .forEach(System.out::println);
+        System.out.println("""
+                  /////////////////
+                  //             //
+                  //             //
+                  //             //
+                  //             //
+                  /////////////////""");
+        integers.parallelStream()
+                .filter(Predicate.not( _PredicateNot::isEven))
+                .forEach(System.out::println);
+        System.out.println("""
+                  /////////////////
+                  //             //
+                  //             //
+                  //             //
+                  //             //
+                  /////////////////""");
+
+        System.out.println(" my is ".strip());
+        System.out.println(" my is ".stripTrailing());
+        System.out.println(" my is ".stripIndent());
+        System.out.println(" my is ".stripLeading());
+        System.out.println(" my is ".trim());
+        System.out.println(" my is ".strip().repeat(12));
+
 
     }
 }
