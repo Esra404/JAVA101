@@ -33,8 +33,38 @@ public class Switch {
             default   -> factorial(n - 1) * n;
         };
     }
-
+//    public static String checkShape(Shape shape) {
+//        return switch (shape) {
+//            case Triangle t && (t.getNumberOfSides() != 3) -> "This is a weird triangle";
+//            case Circle c && (c.getNumberOfSides() != 0) -> "This is a weird circle";
+//            default -> "Just a normal shape";
+//        };
+//
+//
+//    }
 
 
 
 }
+
+
+interface  Shape{
+
+        int getNumberOfSides();
+    }
+
+ class  Triangle implements  Shape{
+
+     @Override
+     public int getNumberOfSides() {
+         return 0;
+     }
+ }
+
+ class  Circle implements  Shape{
+
+     @Override
+     public int getNumberOfSides() {
+         return 0;
+     }
+ }
