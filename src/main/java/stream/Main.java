@@ -33,6 +33,11 @@ public class Main  {
                 .collect(Collectors.toSet())
                 .forEach(System.out::println);
 
+        List<String> strings=List.of("usman","khalid","usman","khalid");
+        String c=strings.stream().collect(Collectors.joining(","));
+        System.out.println(c);
+
+
     }
 
 

@@ -1,5 +1,6 @@
 package emailValidation;
 
+import javax.swing.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -11,5 +12,6 @@ public class Main {
         Pattern pattern = Pattern.compile(REGEX);
         Matcher matcher = pattern.matcher("loftyusman@gmail.com");
         System.out.println(matcher.matches());
+
     }
 }

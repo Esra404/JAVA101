@@ -10,9 +10,5 @@
         <module name="untitled" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="JAVA" target="18" />
-      <module name="untitled" target="18" />
-    </bytecodeTargetLevel>
   </component>
 </project>
