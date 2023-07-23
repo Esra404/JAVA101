@@ -1,0 +1,23 @@
+
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îÃ¯¤úÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îÃ¯¤úÿÿÿÿ
+R
+java:S4973"<Strings and Boxed types should be compared using "equals()".(™¿äÐ
+Y
+java:S1854">Remove this useless assignment to local variable "comparator".(îÃ¯¤úÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(™¿äÐ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¼¯âÃþÿÿÿÿ
+>
+java:S2114"(Remove or correct this "retainAll" call.(ÐÂ„‡
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ä´Ç™
+M	java:S106"9Replace this use of System.out or System.err by a logger.(÷Å‘Y
+J
+java:S1481"/Remove this unused "comparator" local variable.(îÃ¯¤úÿÿÿÿ
+S	java:S106!"9Replace this use of System.out or System.err by a logger.(´‹¹öþÿÿÿÿ
+S	java:S106#"9Replace this use of System.out or System.err by a logger.(´‹¹öþÿÿÿÿ
+S	java:S106&"9Replace this use of System.out or System.err by a logger.(´‹¹öþÿÿÿÿ
+S	java:S106("9Replace this use of System.out or System.err by a logger.(´‹¹öþÿÿÿÿ
+S	java:S106)"9Replace this use of System.out or System.err by a logger.(¶´›§þÿÿÿÿ
+E
+java:S1197*"*Move the array designators [] to the type.(ùÍŠ¦ÿÿÿÿÿ
+N	java:S106-"9Replace this use of System.out or System.err by a logger.(ö–ËÖ
