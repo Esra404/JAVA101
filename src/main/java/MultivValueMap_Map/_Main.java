@@ -31,7 +31,7 @@ public class _Main {
         String strin= multivaluedMap.get("2").stream().map(String::strip).map(String::toUpperCase)
                 .collect(Collectors.joining("-"));
         System.out.println(strin);
-        System.out.println(slug("usman usman khalid is coming home"));
+        System.out.println(slug("usman usman khalid is coming home "));
     }
 
     static String slug(String string){
