@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Array {
+public class  Array {
     public static void main(String[] args) {
         System.out.println("DIZI BOYUTU GIRIN");
         int boyutu=new Scanner(System.in).nextInt();

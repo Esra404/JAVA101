@@ -17,7 +17,7 @@ public class Main {
 
         System.out.println(currencyNumber.format(1230987449999995.33));
 
-        System.out.println("\n");
+        System.out.println("\n ");
 
         Locale locale1=new Locale("en","GH");
         Currency currency1=Currency.getInstance(locale1);
