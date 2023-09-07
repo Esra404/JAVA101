@@ -39,3 +39,5 @@ T
 $src/main/java/havaSicaklik/Hava.java,d\b\db532e651bffa77707229ff2541c343692a3d4f4
 Q
 !src/main/java/generic/WildCt.java,5\e\5e85ec71176013ae9c7ec0e719181820329cda63
+M
+src/main/java/file/Main2.java,b\7\b7f11a0f7b503191c42e8a1c4f26fd80b680f5ce
