@@ -11,9 +11,11 @@ public class Main {
 
         K<Integer> k= new K<>();
         k.setT(555);
-        k.i=90;
+        k.i="90";
 
         k.print();
+        System.out.println(k.getT());
+        System.out.println(k.i);
 
     }
 
@@ -26,14 +28,18 @@ public class Main {
     }
 }
 class K<T>{
-    int i;
+    String i;
     private T t;
     public void  print(){
         System.out.println(t.getClass().getClass());
-        System.out.println((Integer)i instanceof Integer);
+        System.out.println(i);
     }
 
     public void setT(T t) {
         this.t = t;
+    }
+
+    public  T getT(){
+      return   this.t;
     }
 }

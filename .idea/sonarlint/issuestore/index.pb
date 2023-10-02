@@ -41,3 +41,19 @@ Q
 !src/main/java/generic/WildCt.java,5\e\5e85ec71176013ae9c7ec0e719181820329cda63
 M
 src/main/java/file/Main2.java,b\7\b7f11a0f7b503191c42e8a1c4f26fd80b680f5ce
+O
+src/main/java/garbage/Main.java,1\c\1c67384e3a55de160e67640fcbff1f32393920d0
+M
+src/main/java/NestedList.java,6\d\6dfc0ece636179a76568ba87e24db9485e601628
+Q
+!src/main/java/FreeMaker/Main.java,3\9\39575edb99404d26edec9bd2b27a2b5a7457a692
+N
+src/main/java/array/Array.java,1\b\1b98927eac35a180cdfa9eb06d5ffc0cdfb47ca0
+P
+ src/main/java/currency/Main.java,1\0\109dbcfc5d2f9f604348bad6dae51ad5b153dede
+W
+'src/main/java/emailValidation/Main.java,3\2\327f4d96d28363e29aadf1f57243284441328bad
+e
+5src/main/java/functioniningProgramming/_Function.java,5\0\503a67df68fb4e3bee977989e256cca91e5814b3
+f
+6src/main/java/functioniningProgramming/_Predicate.java,3\8\383112474ce55d99d9f065b63837cdd2fe6c3676
