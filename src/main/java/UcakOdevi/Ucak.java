@@ -49,3 +49,44 @@ public class Ucak {
     }
 
 }
+//osman
+/*
+import java.util.Scanner;
+
+public class Ucak {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Uçuş mesafesini girin (km):");
+        int mesafe = input.nextInt();
+        System.out.println("Yol tipini seçin (1: Tek yön, 2: Gidiş-dönüş):");
+        int yolTipi = input.nextInt();
+        System.out.println("Yaşınızı girin:");
+        int yas = input.nextInt();
+        input.close();
+
+        if (mesafe < 0 || yas < 0 || (yolTipi != 1 && yolTipi != 2)) {
+            System.out.println("Hatalı veri girdiniz!");
+            System.exit(0);
+        }
+
+        double biletFiyati = 0.10 * mesafe;
+        double indirimOrani = 0.0;
+
+        if (yas < 12) {
+            indirimOrani = 0.50;
+        } else if (yas >= 12 && yas < 24) {
+            indirimOrani = 0.10;
+        } else if (yas > 64) {
+            indirimOrani = 0.30;
+        }
+
+        double yasIndirim = biletFiyati * indirimOrani;
+        double indirimliFiyat = biletFiyati - yasIndirim;
+
+        double yolTipiIndirim = (yolTipi == 2) ? 0.20 * indirimliFiyat : 0.0;
+
+        double toplamFiyat = (indirimliFiyat - yolTipiIndirim) * (yolTipi == 2 ? 2 : 1);
+        System.out.println("Ödemeniz gereken toplam ücret: " + toplamFiyat + " TL");
+    }
+}
+*/
